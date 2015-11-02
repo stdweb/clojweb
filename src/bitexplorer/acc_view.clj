@@ -42,28 +42,30 @@
     ) )
 
 (defn get-acc-item-html [item-data]
-  (let [data (get-acc-item-href item-data)
+  (let [
+        data (get-acc-item-href item-data)
         depth (parse-int (data "DEPTH"))
         ]
     [:tr ;(map-tag :td (select-values data [ "BLOCK" "BLOCKTIMESTAMP" "TX" "OFFSETACCOUNT"  "AMOUNT" "FEE" "ENTRYTYPE"   ]))
      
-     [:td {:style "rowspan:2"} (data "BLOCK")]
+     [:td (merge-style (entryresult-style data "") {:style "rowspan:2"}) (data "BLOCK")]
      [:td (data "BLOCKTIMESTAMP")]
      
      [:td (if (zero? (or depth 0))  ( data "TX") "")]
      ;[:td depth]
-     [:td (data "ENTRYTYPE")]
+     [:td (td-style data "") (data "ENTRYTYPE")]
+     
      [:td (td-style data "offset" ) (data "OFFSETACCOUNT")]
      
      [:td (td-style data "floor") (floor (data "RECEIVED"))]
      [:td (td-style data "fract") (fract (data "RECEIVED"))]
      [:td (td-style data "floor") (floor (data "SENT"))]
      [:td (td-style data "fract") (fract (data "SENT"))]
-     [:td (data "DEPTH")]
+    ; [:td (data "DEPTH")]
      ;[:td (data "FEE")]
-     ;[:td (getAmountStyle (data "GROSSAMOUNT")) (data "GROSSAMOUNT")]
-     [:td (td-style data "floor") (floor(data "BALANCE"))]
-     [:td (td-style data "fract") (fract(data "BALANCE"))]
+     ;[:td (data "GROSSAMOUNT")]
+    ; [:td (td-style data "floor") (floor(data "BALANCE"))]
+     ;[:td (td-style data "fract") (fract(data "BALANCE"))]
      [:td (data "GASUSED")]
      ])
   )
@@ -81,10 +83,10 @@
       [:th "Offset Acc"] 
       [:th {:class "th-colspan" :colspan "2"} "Received (Finney)"] 
       [:th {:class "th-colspan" :colspan "2"} "Sent (Finney)"]
-      [:th "Depth"]
+     ; [:th "Depth"]
        ;[:th "Fee"] 
       ;[:th "GrossAmount"]
-      [:th {:class "th-colspan" :colspan "2"} "Balance"]
+      ;[:th {:class "th-colspan" :colspan "2"} "Balance"]
       [:th "Gas used"]
       ]
                           (map #(get-acc-item-html %) data)    
@@ -98,6 +100,8 @@
         entries-count (data "entries_count")
         page-count (data "page_count")
         entries (data "entries")
+        balance (data "balance")
+        address-type (data "addresstype")
         ]
     (htmlpage 
      (list (navig-acc-form accid offset page-count)
@@ -106,15 +110,12 @@
       ;[:h2 "Account# " accid]
       ;[:p "Entries count " entries-count]
       [:table {:class "blockheader"}
-       [:tr [:td {:class "blockheader-key"} "Account"] [:td {:class "blockheader-key"} accid]]
+       [:tr [:td {:class "blockheader-key"} address-type] [:td {:class "blockheader-key"} accid]]
        [:tr [:td {:class "blockheader-key"} "Entries count"] [:td {:class "blockheader-key"} entries-count]]
+       [:tr [:td {:class "blockheader-key"} "Balance"] [:td {:class "blockheader-key"} balance]]
        ]
       ;(map2htmltable (get-block-data blockid) {:class "blockheader"})
       [:hr]
       (create-acc-table entries accid offset {:class "blockdetails"})
-      ])
-    
-    
-    
-     ))
-  )
+      ]))))
+

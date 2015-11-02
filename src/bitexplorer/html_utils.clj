@@ -43,18 +43,42 @@
     )
   )
 
-(defn td-style [data n]
+(defn merge-style [style1 style2]
+  (let [styletag (str (style1 :style) ";" (style2 :style))]
+    (merge style1 style2 {:style styletag})
+    
+    )
+  )
+
+(defn td-style2 [data n]
   (case n
     "sender"   (internalCall-style data )
     "receiver" (internalCall-style data )
     "offset" (internalCall-style data )
-    "floor" {:class "floor-part"}
+    "floor" {:class "floor-part" }
     "fract" {:class "fract-part"}
-    "txtype" {:class  "txtype"}
+    "txtype" {:class  "txtype" }
     
     {}
     )
   )
+
+(defn entryresult-style [data n]
+  (let [ style 
+        (case (data "ENTRYRESULT")
+          "Failed" {:style "color:red;text-decoration: line-through;"}
+          "Ok" {}
+          "Total" {:style "font-weight:bold"}
+          
+          )]
+    style
+    ;(merge-style (td-style2 data n) style)
+    )
+  )
+(defn td-style [data n]
+  (merge-style (td-style2 data n ) (entryresult-style data n))
+  )
+  
   
  
   

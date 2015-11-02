@@ -40,19 +40,13 @@
 
 (defn block-html [blockid] 
   
-  (htmlpage 
-
-     
-    [:body 
-     [:h2 "Block# " blockid]
-     (
-       ;map2htmltable 
-       blockHead-htmltable
-      (get-block-data blockid) {:class "blockheader"})
-    ; [:hr]
-     (create-tx-table blockid {:class "blockdetails"})
-     ]
-    
-    
-    
-    ))
+  (let [data (get-block-data blockid)] 
+    (htmlpage 
+     [:body 
+      [:h2 "Block# " (data "height")]
+      ;map2htmltable 
+      (blockHead-htmltable  data {:class "blockheader"})
+     ; [:hr]
+      (create-tx-table blockid {:class "blockdetails"})
+      ]))
+  )

@@ -7,6 +7,7 @@
         bitexplorer.model
         bitexplorer.utils
         bitexplorer.sharedview 
+        [bitexplorer.genesisview :as genesis]
         
         
         
@@ -30,7 +31,7 @@
       case button
       "Top" (get-bestblock)
       "Go to" (min blockNo (get-bestblock))
-      " < "  (- blockNo 40 )
+      " < "  (max(- blockNo 40 ) 0)
       " > "  (min (+ blockNo 40 ) (get-bestblock))
       )))
 
@@ -39,9 +40,9 @@
         button ( (req :multipart-params) "btngoto")
         acc ((req  :multipart-params) "acc")
         offsetStr ((req  :multipart-params) "offset")
-        offset (or ( parse-int offsetStr) 0)
+        offset (or ( parse-int offsetStr) 1)
         offset-1 (- offset 1)
-        page-count (or ( parse-int ((req  :multipart-params) "page")) 0)
+        page-count (or ( parse-int ((req  :multipart-params) "page")) 1)
         ;blockNo (if (number? blockNoParse) blockNoParse (get-bestblock))
         ;(if (number? blockNoParse) ())
         ]
@@ -50,8 +51,8 @@
       "<<" (str acc "/" "0")
       ">>" (str acc "/" page-count)
       "Go to" (str acc "/" offset)
-      " < "  (str acc "/" (if (neg? offset-1) 0 offset-1))
-      " > "  (str acc "/" (+ 1 offset))
+      " < "  (str acc "/" (if (zero? offset-1) 1 offset-1))
+      " > "  (str acc "/" (min (+ 1 offset) page-count))
       )))
 
 (defn search-redirect [request]
@@ -74,7 +75,10 @@
   (GET "/" [] (resp/redirect (str "/index/top"  )))
   (GET "/block/:blockid" [blockid] (block-html blockid))
   (GET "/tx/:txid" [txid] (tx-html txid))
-  (GET "/account/:accid" [accid] (acc-html accid 0 ))
+  (GET "/account/Genesis" [] (genesis/view) )
+  (GET "/account/genesis" [] (genesis/view) )
+  
+  (GET "/account/:accid" [accid] (acc-html accid 1 ))
   (GET "/account/:accid/:offset" [accid offset] (acc-html accid offset))
   
   (GET "/contract/:contrid" [contrid] (str "<h1>contract requested " contrid "</h1>"))
