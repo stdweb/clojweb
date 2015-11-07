@@ -8,7 +8,7 @@
         bitexplorer.utils
         bitexplorer.sharedview 
         [bitexplorer.genesisview :as genesis]
-        
+        [ring.middleware.logger :as logger]
         
         
         [hiccup.middleware :only (wrap-base-url)])
@@ -103,5 +103,8 @@
 
 (def app
   (-> (handler/site main-routes)
-      (wrap-base-url))) 
+      ;(wrap-base-url)
+      (logger/wrap-with-logger)
+      
+      )) 
 

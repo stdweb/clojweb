@@ -85,9 +85,9 @@
   (htmlpage
    (list [:head (navig-form topblockid)] [:br " "]
     [:body
-     
       (create-block-table topblockid)
-      ])))
+      ]))
+  )
 
 
 (defn index-page []

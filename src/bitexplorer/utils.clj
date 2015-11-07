@@ -1,4 +1,6 @@
-(ns bitexplorer.utils)
+(ns bitexplorer.utils
+  (:require [clojure.tools.logging :as log])
+  )
 
 (def select-values (comp reverse vals select-keys))
 
