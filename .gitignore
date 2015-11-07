@@ -6,5 +6,5 @@ classes
 target
 /bin/
 start
-/log/
+log/
 
