@@ -39,7 +39,7 @@
     [:tr
      [:td (data "height")]
      [:td (data "hash")]
-     [:td (data "difficulty")]
+     ;[:td (data "difficulty")]
      [:td (data "coinbase")]
      [:td (data "timestamp")]
      [:td (data "txcount")]
@@ -61,7 +61,9 @@
    ;{:class "th-colspan" :colspan "2"}
    [:div.blocklist  [:table 
                                           ;[:tr  (map-tag :th [ "Height" "Hash" "Difficulty" "Miner" "GasUsed" "Time" "# Tx" "Reward"])]
-                                          [:tr [:th "Height"] [:th "Hash"] [:th "Difficulty"] [:th "Miner"]  [:th {:class "time"}  "Time"] [:th "# Tx"]
+                                          [:tr [:th "Height"] [:th "Hash"] 
+                                           ;[:th "Difficulty"] 
+                                           [:th "Miner"]  [:th {:class "time"}  "Time"] [:th "# Tx"]
                                            [:th "GasUsed"] [:th {:class "th-colspan" :colspan "2"} "Reward"] [:th {:class "th-colspan" :colspan "2"} "TxFee"]]
                                           (map #(get-blocklist-item-html %) (get-blocklist-data topblockid))    
                                           ]]))
