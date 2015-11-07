@@ -29,6 +29,7 @@
 
 (def sharedview 
   (list 
+    [:title "λΞ - Ethereum block explorer"]
     [:div.menu 
      
      [:div#css-menu [:ul   
