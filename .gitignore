@@ -6,3 +6,5 @@ classes
 target
 /bin/
 start
+/log/
+
