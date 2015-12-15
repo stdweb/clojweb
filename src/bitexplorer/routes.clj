@@ -48,7 +48,7 @@
         ]
     (
       case button
-      "<<" (str acc "/" "0")
+      "<<" (str acc "/" "1")
       ">>" (str acc "/" page-count)
       "Go to" (str acc "/" offset)
       " < "  (str acc "/" (if (zero? offset-1) 1 offset-1))

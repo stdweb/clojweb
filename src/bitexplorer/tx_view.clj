@@ -51,7 +51,7 @@
      
      [:td (if (zero? (or depth 0))  ( data "TX") "")]
      ;[:td depth]
-     [:td (data "ENTRYTYPE")]
+     [:td (data "entryType")]
      [:td (td-style data "offset" ) (data "OFFSETACCOUNT")]
      
      [:td (td-style data "floor") (floor (data "RECEIVED"))]
@@ -59,13 +59,13 @@
      [:td (td-style data "floor") (floor (data "SENT"))]
      [:td (td-style data "fract") (fract (data "SENT"))]
      
-     [:td (data "DEPTH")]
+     [:td (data "depth")]
      
      ;[:td (data "FEE")]
      ;[:td (getAmountStyle (data "GROSSAMOUNT")) (data "GROSSAMOUNT")]
      [:td (td-style data "floor") (floor(data "BALANCE"))]
      [:td (td-style data "fract") (fract(data "BALANCE"))]
-     [:td (data "GASUSED")]
+     [:td (data "gasUsed")]
      ])
   )
 

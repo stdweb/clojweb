@@ -35,7 +35,8 @@
 
 (defn internalCall-style [data]
   (let [
-        depth (parse-int (data "DEPTH"))
+        ;depth (parse-int (data "DEPTH"))
+        depth (data "depth")
         style {:style (if (pos? (or depth 0)) (str "text-indent:" depth ".0em") "") }
         ]
     style
@@ -57,7 +58,8 @@
     "offset" (internalCall-style data )
     "floor" {:class "floor-part" }
     "fract" {:class "fract-part"}
-    "txtype" {:class  "txtype" }
+    ;"entryType" {:class  "txtype" }
+    "entryType" (internalCall-style data )
     
     {}
     )
@@ -65,10 +67,11 @@
 
 (defn entryresult-style [data n]
   (let [ style 
-        (case (data "ENTRYRESULT")
+        (case (data "entryResult")
           "Failed" {:style "color:red;text-decoration: line-through;"}
           "Ok" {}
           "Total" {:style "font-weight:bold"}
+          {}
           
           )]
     style

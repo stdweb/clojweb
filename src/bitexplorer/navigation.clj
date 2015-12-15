@@ -37,8 +37,6 @@
         (text-field {:style "width:30px;border-style:none" :readonly "readonly"} :page page-count)
         
         
-        
-        
         (submit-button {:name "btngoto" :value "<<" :class "btn" } "Goto")
         (submit-button {:name "btngoto" :value " < " :class "btn" } "Goto")
         (submit-button {:name "btngoto" :value " > " :class "btn" } "Goto")

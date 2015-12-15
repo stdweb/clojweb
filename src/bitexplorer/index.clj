@@ -19,17 +19,28 @@
 
 (defn get-blocklist-item-href [item-data]
   (let [
-        hash     ( item-data "hash")
-        coinbase ( item-data "coinbase")
+        hash     ( item-data "hash_str")
+        coinbase (or  (item-data "coinbase_str") "0000000000")
         height   ( item-data "height")
+        reward-str (str  (item-data "reward"))
+        fee-str (str  (item-data "fee"))
         
-        ;hash-href      [:a {:href (str "/block/" hash)} (str (subs hash 0 10) "...")]
         hash-href (hash2href "block" hash  )
         coinbase-href  [:a {:href (str "/account/" coinbase)} (str (subs coinbase 0 10) "...")]
-        ;coinbase-href  (hash2href "account" hash  )
+        
         height-href    [:a {:href (str "/block/" height)} height]
+        
+        gas-used (if (= (item-data "gasUsed") 0) "" (item-data "gasUsed") )
+        tx-count (if (= (item-data "txCount") 0) "" (item-data "txCount") )
         ]
-     (assoc item-data "hash" hash-href "coinbase" coinbase-href "height" height-href)
+     (assoc item-data 
+            "hash_str" hash-href 
+            "coinbase" coinbase-href 
+            "height"   height-href
+            "gasUsed" gas-used
+            "txCount" tx-count
+            );"reward" reward-str "fee" fee-str
+     ;item-data
     ))
 
 (defn get-blocklist-item-html [item-data]
@@ -37,19 +48,19 @@
         ]
   ;  [:tr (map-tag :td (select-values data [ "height" "hash" "difficulty" "coinbase"  "timestamp" "tx#" "gasused" "reward" "txfee"]))]
     [:tr
-     [:td (data "height")]
-     [:td (data "hash")]
+     [:td (data "id")]
+     [:td (data "hash_str")]
      ;[:td (data "difficulty")]
      [:td (data "coinbase")]
-     [:td (data "timestamp")]
-     [:td (data "txcount")]
-     [:td (data "gasused")]
-     ;[:td (data "reward")]
-     [:td (td-style data "floor") (floor (data "reward"))]
-     [:td (td-style data "fract") (fract (data "reward"))]
+     [:td (data "blockDateTime")]
+     [:td (data "txCount")]
+     [:td (data "gasUsed")]
+     [:td (data "blockSize")]
+     [:td (td-style data "floor") (floor (data "reward_str"))]
+     [:td (td-style data "fract") (fract (data "reward_str"))]
      
-     [:td (td-style data "floor") (floor (data "txfee"))]
-     [:td (td-style data "fract") (fract (data "txfee"))]
+     [:td (td-style data "floor") (floor (data "fee_str"))]
+     [:td (td-style data "fract") (fract (data "fee_str"))]
      ]
     
     )  )
@@ -64,7 +75,9 @@
                                           [:tr [:th "Height"] [:th "Hash"] 
                                            ;[:th "Difficulty"] 
                                            [:th "Miner"]  [:th {:class "time"}  "Time"] [:th "# Tx"]
-                                           [:th "GasUsed"] [:th {:class "th-colspan" :colspan "2"} "Reward"] [:th {:class "th-colspan" :colspan "2"} "TxFee"]]
+                                           [:th "GasUsed"]
+                                           [:th "Size"]
+                                           [:th {:class "th-colspan" :colspan "2"} "Reward"] [:th {:class "th-colspan" :colspan "2"} "TxFee"]]
                                           (map #(get-blocklist-item-html %) (get-blocklist-data topblockid))    
                                           ]]))
 

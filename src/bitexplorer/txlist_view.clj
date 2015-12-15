@@ -10,11 +10,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defn get-txlist-item-href [item-data]
   (let [
-        depth (parse-int (item-data "DEPTH"))
-        txhash     (if (zero? depth)  ( item-data "TX") "")
-        sender     ( item-data "SENDER")
-        receiver ( item-data "RECEIVER")
-        address ( item-data "address")
+        ;depth (parse-int (item-data "depth"))
+        depth (item-data "depth")
+        txhash     (if (zero? depth)  ( item-data "hash_str") "")
+        sender     ( item-data "addr_str")
+        receiver ( item-data "offsetAddr_str")
+        ;address ( item-data "address")
         
         txhash-href (hash2href "tx" txhash )
         sender-href (hash2href "account" sender)
@@ -28,20 +29,22 @@
     ))
 
 (defn get-txlist-item-html [item-data]
-  (let [data (get-txlist-item-href item-data)
+  (let [
+        data (get-txlist-item-href item-data)
+        gasUsed (item-data "gasUsed")
         ]
     ;[:tr (map-tag :td (select-values data [ "hash" "DEPTH"   "sender" "receiver" "AMOUNT" "FEE" "GASUSED" "ENTRYTYPE"  ]))])
   
     [:tr
      [:td (td-style data "hash") (data "hash")]
-      [:td (td-style data "txtype")(data "ENTRYTYPE")]
+     [:td (td-style data "entryType")(data "entryType")]
      [:td (td-style data "sender")(data "sender")]
      [:td (td-style data "receiver")(data "receiver")]
-     [:td (td-style data "floor")(floor (data "AMOUNT"))]
-     [:td (td-style data "fract") (fract (data "AMOUNT"))]
-     [:td (td-style data "floor")(floor (data "FEE"))]
-     [:td (td-style data "fract")(fract (data "FEE"))]
-     [:td (data "GASUSED")]
+     [:td (td-style data "floor")(floor (data "amount_str"))]
+     [:td (td-style data "fract") (fract (data "amount_str"))]
+     [:td (td-style data "floor")(floor (data "fee_str"))]
+     [:td (td-style data "fract")(fract (data "fee_str"))]
+     [:td (if (zero? gasUsed) "" gasUsed)]
      ;[:td (data "GROSSAMOUNT")]
      ]))
     

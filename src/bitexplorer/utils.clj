@@ -17,7 +17,7 @@
   (let [
         ;s (subs (clojure.string/replace amount "," "") 0 (max 0 (.indexOf amount ".")))
         ;s (clojure.string/replace amount "," "")
-         amount-str (or amount "")
+        amount-str (or amount "")
         ret (first (clojure.string/split amount-str #"\."))
         ]
     ret

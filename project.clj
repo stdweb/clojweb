@@ -6,6 +6,7 @@
                  [hiccup "1.0.0"]
                  [clj-http "LATEST"] 
                  [ring.middleware.logger "0.5.0"]
+                 [org.clojure/data.json "0.2.6"]
 ;                 [org.clojure/tools.logging "0.3.1"]
 ;                 [log4j/log4j "1.2.17" :exclusions [javax.mail/mail
 ;                                                 javax.jms/jms

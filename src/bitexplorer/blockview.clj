@@ -16,16 +16,17 @@
 
   (into [:table attribs ] 
         (map #( into [] [:tr [:td {:class "blockheader-key"} (first %)] [:td {:class "blockheader-val"} (m (last %))]])
-             (list  ["Block hash" "hash"] 
-                    ["Parent hash" "parenthash"] 
-                    ["Time" "timestamp"] 
-                    ["Uncle count" "uncles"]
-                    ["Tx count" "txcount"]
-                    ["Gas used" "gasused"]
+             (list  ["Block hash" "hash_str"] 
+                    ["Parent hash" "parent_str"] 
+                    ["Time" "blockDateTime"] 
+                    ["Uncle count" "unclesCount"]
+                    ["Tx count" "txCount"]
+                    ["Gas used" "gasUsed"]
                     ["difficulty"]
-                    ["State root hash" "stateroot"]
-                    ["Receipt root hash" "receiptroot"]
-                    ["Tx trie root hash" "txtrieroot"]
+                    ["Block size" "blockSize"]
+                    ["State root hash" "stateroot_str"]
+                    ["Receipt root hash" "receiptroot_str"]
+                    ["Tx trie root hash" "txroot_str"]
                     
 
                     ))))
@@ -43,7 +44,7 @@
   (let [data (get-block-data blockid)] 
     (htmlpage 
      [:body 
-      [:h2 "Block# " (data "height")]
+      [:h2 "Block# " (data "id")]
       ;map2htmltable 
       (blockHead-htmltable  data {:class "blockheader"})
      ; [:hr]
