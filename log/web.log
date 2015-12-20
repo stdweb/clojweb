@@ -93,3 +93,1083 @@
 2015-12-15 09:43:20.526 | INFO  | onelog.core | [36mFinished [0m:get /block/0xfdefcd2a9533b2537b3df44b27c4d1b1d0f7a8e7f7d7453eb97c236b49f57bb7 for 127.0.0.1 in (33 ms) Status: [39m200[0m
 2015-12-15 09:43:22.588 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xfdefcd2a9533b2537b3df44b27c4d1b1d0f7a8e7f7d7453eb97c236b49f57bb7", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
 2015-12-15 09:43:22.651 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (64 ms) Status: [39m200[0m
+2015-12-17 03:44:34.425 | INFO  | org.eclipse.jetty.server.Server | jetty-7.6.1.v20120215
+2015-12-17 03:44:34.471 | INFO  | org.eclipse.jetty.server.AbstractConnector | Started SelectChannelConnector@0.0.0.0:3000
+2015-12-17 03:44:35.452 | INFO  | onelog.core | [36mStarting [0m:get / for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:44:35.731 | INFO  | onelog.core | [36mFinished [0m:get / for 127.0.0.1 in (298 ms) Status: [33m302[0m redirect to /index/top
+2015-12-17 03:44:35.743 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:44:36.398 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in ([33m655[0m ms) Status: [39m200[0m
+2015-12-17 03:44:37.243 | INFO  | onelog.core | [36mStarting [0m:get /favicon.ico for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "*/*"}
+2015-12-17 03:44:37.246 | INFO  | onelog.core | [36mFinished [0m:get /favicon.ico for 127.0.0.1 in (4 ms) Status: [31m404[0m
+2015-12-17 03:44:43.878 | INFO  | onelog.core | [36mStarting [0m:get /block/0xb9118565e1f44c113365ddfa2b0ac78c453ecba5365cc383a3608aaa5be8304a for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:44:44.070 | INFO  | onelog.core | [36mFinished [0m:get /block/0xb9118565e1f44c113365ddfa2b0ac78c453ecba5365cc383a3608aaa5be8304a for 127.0.0.1 in (193 ms) Status: [39m200[0m
+2015-12-17 03:48:05.349 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xb9118565e1f44c113365ddfa2b0ac78c453ecba5365cc383a3608aaa5be8304a", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:05.782 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (433 ms) Status: [39m200[0m
+2015-12-17 03:48:08.149 | INFO  | onelog.core | [36mStarting [0m:get /block/0xf0ce39da10d312f2a80613d7c51cedbe42a676a8c97cd94820adc4d78b71da4b for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:08.337 | INFO  | onelog.core | [36mFinished [0m:get /block/0xf0ce39da10d312f2a80613d7c51cedbe42a676a8c97cd94820adc4d78b71da4b for 127.0.0.1 in (189 ms) Status: [39m200[0m
+2015-12-17 03:48:15.606 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3adba3e42d81d21bf7025225074c513616cca9998aa250871e7f2682e86d9503 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:15.660 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3adba3e42d81d21bf7025225074c513616cca9998aa250871e7f2682e86d9503 for 127.0.0.1 in (55 ms) Status: [39m200[0m
+2015-12-17 03:48:21.218 | INFO  | onelog.core | [36mStarting [0m:get /block/0xf0ce39da10d312f2a80613d7c51cedbe42a676a8c97cd94820adc4d78b71da4b for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:21.286 | INFO  | onelog.core | [36mFinished [0m:get /block/0xf0ce39da10d312f2a80613d7c51cedbe42a676a8c97cd94820adc4d78b71da4b for 127.0.0.1 in (69 ms) Status: [39m200[0m
+2015-12-17 03:48:23.724 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc9d6c573ab9eebc8b03f71dca803d76f90fda063e1499a3696822c4d2afd7ddb for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:23.769 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc9d6c573ab9eebc8b03f71dca803d76f90fda063e1499a3696822c4d2afd7ddb for 127.0.0.1 in (45 ms) Status: [39m200[0m
+2015-12-17 03:48:29.961 | INFO  | onelog.core | [36mStarting [0m:get /block/0x4b4f7dd1e4bf3fe0044383da61ed6717dba257b7bee4427e72f21714d1b7611b for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:48:30.023 | INFO  | onelog.core | [36mFinished [0m:get /block/0x4b4f7dd1e4bf3fe0044383da61ed6717dba257b7bee4427e72f21714d1b7611b for 127.0.0.1 in (63 ms) Status: [39m200[0m
+2015-12-17 03:54:48.504 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:54:49.322 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in ([31m818[0m ms) Status: [39m200[0m
+2015-12-17 03:54:51.440 | INFO  | onelog.core | [36mStarting [0m:get /block/0x67a3caca869887870929c9c46b9af1fc7326796fab40e9f071b9a7b231c669f2 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:54:53.048 | INFO  | onelog.core | [36mFinished [0m:get /block/0x67a3caca869887870929c9c46b9af1fc7326796fab40e9f071b9a7b231c669f2 for 127.0.0.1 in ([1m[31m1608[0m ms) Status: [39m200[0m
+2015-12-17 03:54:59.723 | INFO  | onelog.core | [36mStarting [0m:get /block/0xfe07c8a1728d79bf50affaed6354eee511621cc7608d2171079d073d70fdad12 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:54:59.806 | INFO  | onelog.core | [36mFinished [0m:get /block/0xfe07c8a1728d79bf50affaed6354eee511621cc7608d2171079d073d70fdad12 for 127.0.0.1 in (83 ms) Status: [39m200[0m
+2015-12-17 03:55:19.346 | INFO  | onelog.core | [36mStarting [0m:get /block/0x6314f73330955f774e2d7b5e46635f46cd071de37fb39db9abe23810330c7c6f for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:55:19.452 | INFO  | onelog.core | [36mFinished [0m:get /block/0x6314f73330955f774e2d7b5e46635f46cd071de37fb39db9abe23810330c7c6f for 127.0.0.1 in (105 ms) Status: [39m200[0m
+2015-12-17 03:55:35.800 | INFO  | onelog.core | [36mStarting [0m:get /block/0x895a22e84d171cbd46d29d666c8015deb68c17072e07101745a4dc6c06979444 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:55:35.893 | INFO  | onelog.core | [36mFinished [0m:get /block/0x895a22e84d171cbd46d29d666c8015deb68c17072e07101745a4dc6c06979444 for 127.0.0.1 in (93 ms) Status: [39m200[0m
+2015-12-17 03:55:38.323 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0x895a22e84d171cbd46d29d666c8015deb68c17072e07101745a4dc6c06979444", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:55:38.417 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (95 ms) Status: [39m200[0m
+2015-12-17 03:55:53.353 | INFO  | onelog.core | [36mStarting [0m:get /block/0xa44d6262fd053b722e5cfc20a29dcf7ae46b4dabc235a6c1537e5c5b1e3e1456 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 03:55:53.477 | INFO  | onelog.core | [36mFinished [0m:get /block/0xa44d6262fd053b722e5cfc20a29dcf7ae46b4dabc235a6c1537e5c5b1e3e1456 for 127.0.0.1 in (125 ms) Status: [39m200[0m
+2015-12-17 04:15:20.191 | INFO  | onelog.core | [36mStarting [0m:get /block/0xff62938120c304517f5704433dce1271910c643f4ffa0efcbe5e5f8f50e6b5ff for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:15:20.198 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (4 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/block/0xff62938120c304517f5704433dce1271910c643f4ffa0efcbe5e5f8f50e6b5ff", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@a62b1bf>, :scheme :http, :request-method :get}[0m
+2015-12-17 04:15:20.199 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_block_data.invoke(model.clj:33)
+bitexplorer.blockview$block_html.invoke(blockview.clj:44)
+bitexplorer.routes$fn__5459.invoke(routes.clj:76)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-17 04:18:43.227 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/block/0x895a22e84d171cbd46d29d666c8015deb68c17072e07101745a4dc6c06979444", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:18:43.611 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (385 ms) Status: [39m200[0m
+2015-12-17 04:18:43.730 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-17 04:18:43.740 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (10 ms) Status: [33m304[0m
+2015-12-17 04:18:45.026 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc3fea5d6f2e096627747abff8bcbbc95b58f0a0da1efa1d176c755f843f5b163 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:18:45.510 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc3fea5d6f2e096627747abff8bcbbc95b58f0a0da1efa1d176c755f843f5b163 for 127.0.0.1 in (484 ms) Status: [39m200[0m
+2015-12-17 04:18:53.175 | INFO  | onelog.core | [36mStarting [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:18:53.382 | INFO  | onelog.core | [36mFinished [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 in (203 ms) Status: [39m200[0m
+2015-12-17 04:23:07.933 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:23:08.561 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in ([33m628[0m ms) Status: [39m200[0m
+2015-12-17 04:23:11.413 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:23:11.876 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 in (463 ms) Status: [39m200[0m
+2015-12-17 04:24:15.014 | INFO  | onelog.core | [36mStarting [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:24:15.761 | INFO  | onelog.core | [36mFinished [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 in ([33m748[0m ms) Status: [39m200[0m
+2015-12-17 04:24:44.496 | INFO  | onelog.core | [36mStarting [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:24:44.768 | INFO  | onelog.core | [36mFinished [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 in (271 ms) Status: [39m200[0m
+2015-12-17 04:25:17.174 | INFO  | onelog.core | [36mStarting [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:25:34.057 | INFO  | onelog.core | [36mFinished [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 in ([1m[31m16884[0m ms) Status: [39m200[0m
+2015-12-17 04:25:34.293 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-17 04:25:34.301 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (7 ms) Status: [33m304[0m
+2015-12-17 04:25:39.520 | INFO  | onelog.core | [36mStarting [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:27:08.264 | INFO  | onelog.core | [36mFinished [0m:get /block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132 for 127.0.0.1 in ([1m[31m88744[0m ms) Status: [39m200[0m
+2015-12-17 04:27:08.402 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/block/0x23441cd2ecc547966999840fcaa700031111c17aec6954148cda51cbbc06b132", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-17 04:27:08.404 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (3 ms) Status: [33m304[0m
+2015-12-17 04:27:16.978 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:27:19.329 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 in ([1m[31m2352[0m ms) Status: [39m200[0m
+2015-12-17 04:31:04.599 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:31:05.112 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in ([33m513[0m ms) Status: [39m200[0m
+2015-12-17 04:31:06.995 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:31:07.183 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193 for 127.0.0.1 in (188 ms) Status: [39m200[0m
+2015-12-17 04:31:15.164 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0x3177af445e36eb313edfa05268fb2d55d4362ad8f4758300b4d246ae447f8193", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 04:31:15.259 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (95 ms) Status: [39m200[0m
+2015-12-17 08:49:13.523 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryVHDHV1Cih0HQDXdT", "content-length" "243", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-17 08:49:13.563 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (40 ms) Status: [33m302[0m redirect to /index/116120
+2015-12-17 08:49:13.568 | INFO  | onelog.core | [36mStarting [0m:get /index/116120 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 08:49:14.951 | INFO  | onelog.core | [36mFinished [0m:get /index/116120 for 127.0.0.1 in ([31m1383[0m ms) Status: [39m200[0m
+2015-12-17 09:31:17.822 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/116120", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-17 09:31:17.825 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (3 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/116120", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@76df25e7>, :scheme :http, :request-method :get}[0m
+2015-12-17 09:31:17.826 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 00:51:12.292 | INFO  | org.eclipse.jetty.server.Server | jetty-7.6.1.v20120215
+2015-12-18 00:51:12.332 | INFO  | org.eclipse.jetty.server.AbstractConnector | Started SelectChannelConnector@0.0.0.0:3000
+2015-12-18 00:51:13.528 | INFO  | onelog.core | [36mStarting [0m:get / for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 00:51:13.876 | INFO  | onelog.core | [36mFinished [0m:get / for 127.0.0.1 in (359 ms) Status: [33m302[0m redirect to /index/top
+2015-12-18 00:51:13.885 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 00:51:14.005 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (115 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@278a8e4b>, :scheme :http, :request-method :get}[0m
+2015-12-18 00:51:14.006 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 00:51:14.911 | INFO  | onelog.core | [36mStarting [0m:get /favicon.ico for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "*/*"}
+2015-12-18 00:51:14.915 | INFO  | onelog.core | [36mFinished [0m:get /favicon.ico for 127.0.0.1 in (4 ms) Status: [31m404[0m
+2015-12-18 01:13:48.722 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:13:49.238 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in ([33m518[0m ms) Status: [39m200[0m
+2015-12-18 01:13:49.370 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-18 01:13:49.376 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (6 ms) Status: [33m304[0m
+2015-12-18 01:13:56.844 | INFO  | onelog.core | [36mStarting [0m:get /account/0x608f4b86321a68453f9adf6f06f7fc3e621739ad for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:13:57.223 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (380 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/account/0x608f4b86321a68453f9adf6f06f7fc3e621739ad", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@2a7b184f>, :scheme :http, :request-method :get}[0m
+2015-12-18 01:13:57.224 | ERROR | onelog.core | [1m[31mclojure.lang.ExceptionInfo: clj-http: status 500
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:196)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_account_data.invoke(model.clj:38)
+bitexplorer.acc_view$acc_html.invoke(acc_view.clj:105)
+bitexplorer.routes$fn__5467.invoke(routes.clj:81)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 01:14:35.046 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3baa0a83643900b620d77ec442df2059a7fabc4aa9a7a3c91ff1ff361bbd9773 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:14:35.385 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3baa0a83643900b620d77ec442df2059a7fabc4aa9a7a3c91ff1ff361bbd9773 for 127.0.0.1 in (340 ms) Status: [39m200[0m
+2015-12-18 01:14:41.105 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundary1xydCJAfJt1BASub", "content-length" "243", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:14:41.141 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (35 ms) Status: [33m302[0m redirect to /index/116827
+2015-12-18 01:14:41.145 | INFO  | onelog.core | [36mStarting [0m:get /index/116827 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:14:41.273 | INFO  | onelog.core | [36mFinished [0m:get /index/116827 for 127.0.0.1 in (128 ms) Status: [39m200[0m
+2015-12-18 01:14:44.407 | INFO  | onelog.core | [36mStarting [0m:get /block/0x3df113425c3ad28914aab41b8c3f60bb3e545b34c9da0ccafd2af35aecc73cc2 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/116827", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:14:44.825 | INFO  | onelog.core | [36mFinished [0m:get /block/0x3df113425c3ad28914aab41b8c3f60bb3e545b34c9da0ccafd2af35aecc73cc2 for 127.0.0.1 in (419 ms) Status: [39m200[0m
+2015-12-18 01:14:54.537 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarybulN9HN3BM9HKlgi", "content-length" "246", "referer" "http://localhost:3000/index/116827", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:14:54.554 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (18 ms) Status: [33m302[0m redirect to /index/116867
+2015-12-18 01:14:54.559 | INFO  | onelog.core | [36mStarting [0m:get /index/116867 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/116827", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:14:54.636 | INFO  | onelog.core | [36mFinished [0m:get /index/116867 for 127.0.0.1 in (78 ms) Status: [39m200[0m
+2015-12-18 01:15:00.465 | INFO  | onelog.core | [36mStarting [0m:get /block/0x78c0afb0fc18615b5c0cc6f7d1a5408645700ee224eea63fdd050244daa46ef4 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/116867", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:15:00.629 | INFO  | onelog.core | [36mFinished [0m:get /block/0x78c0afb0fc18615b5c0cc6f7d1a5408645700ee224eea63fdd050244daa46ef4 for 127.0.0.1 in (164 ms) Status: [39m200[0m
+2015-12-18 01:16:26.013 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:16:26.048 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (36 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@2a7b184f>, :scheme :http, :request-method :get}[0m
+2015-12-18 01:16:26.049 | ERROR | onelog.core | [1m[31mclojure.lang.ExceptionInfo: clj-http: status 500
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:196)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_account_data.invoke(model.clj:38)
+bitexplorer.acc_view$acc_html.invoke(acc_view.clj:105)
+bitexplorer.routes$fn__5467.invoke(routes.clj:81)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 01:16:34.123 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:00.719 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (86596 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@2a7b184f>, :scheme :http, :request-method :get}[0m
+2015-12-18 01:18:00.719 | ERROR | onelog.core | [1m[31mclojure.lang.ExceptionInfo: clj-http: status 500
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:196)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_account_data.invoke(model.clj:38)
+bitexplorer.acc_view$acc_html.invoke(acc_view.clj:105)
+bitexplorer.routes$fn__5467.invoke(routes.clj:81)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 01:18:37.841 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:42.989 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5 for 127.0.0.1 in ([1m[31m5148[0m ms) Status: [39m200[0m
+2015-12-18 01:18:43.128 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-18 01:18:43.132 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (3 ms) Status: [33m304[0m
+2015-12-18 01:18:47.802 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryQwL6zmesIFCLdyKi", "content-length" "459", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:47.804 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39
+2015-12-18 01:18:47.808 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:47.906 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39 for 127.0.0.1 in (99 ms) Status: [39m200[0m
+2015-12-18 01:18:48.721 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryKBiKUJmPYrCdRfXo", "content-length" "461", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:48.724 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (4 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39
+2015-12-18 01:18:48.729 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:48.785 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39 for 127.0.0.1 in (56 ms) Status: [39m200[0m
+2015-12-18 01:18:50.160 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarySmmlL7wW66Q9Qg8M", "content-length" "461", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:50.162 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/38
+2015-12-18 01:18:50.169 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/38 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/39", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:50.281 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/38 for 127.0.0.1 in (112 ms) Status: [39m200[0m
+2015-12-18 01:18:51.170 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryYSxB3yMW2KOk8AXg", "content-length" "461", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/38", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:51.173 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/37
+2015-12-18 01:18:51.178 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/37 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/38", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:51.518 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/37 for 127.0.0.1 in (341 ms) Status: [39m200[0m
+2015-12-18 01:18:52.142 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundary9ZDyXluVxgF01LYo", "content-length" "461", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/37", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:52.144 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/36
+2015-12-18 01:18:52.150 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/36 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/37", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:52.241 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/36 for 127.0.0.1 in (91 ms) Status: [39m200[0m
+2015-12-18 01:18:52.851 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryMAbflme6aj9rfyPH", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/36", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:52.852 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1
+2015-12-18 01:18:52.862 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/36", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:52.949 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 in (87 ms) Status: [39m200[0m
+2015-12-18 01:18:54.256 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryXV9FSRZHar3MbM3V", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:54.259 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1
+2015-12-18 01:18:54.264 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:54.350 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 in (87 ms) Status: [39m200[0m
+2015-12-18 01:18:55.155 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryWZ1hJs3DJTHpdS2H", "content-length" "459", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:55.156 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1
+2015-12-18 01:18:55.161 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:55.248 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1 for 127.0.0.1 in (87 ms) Status: [39m200[0m
+2015-12-18 01:18:57.401 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryJykCu9q1skHlAMbV", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:57.403 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/2
+2015-12-18 01:18:57.408 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/2 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/1", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:57.504 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/2 for 127.0.0.1 in (97 ms) Status: [39m200[0m
+2015-12-18 01:18:59.221 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryhAiUvHrA7ihIs0KB", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/2", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:18:59.224 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3
+2015-12-18 01:18:59.229 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/2", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:18:59.397 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3 for 127.0.0.1 in (168 ms) Status: [39m200[0m
+2015-12-18 01:19:00.119 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarykeo0ToKTz1XWxpLZ", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:00.122 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4
+2015-12-18 01:19:00.127 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:00.338 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4 for 127.0.0.1 in (211 ms) Status: [39m200[0m
+2015-12-18 01:19:01.714 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundary8llVsVfGJkAFxqdc", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:01.716 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3
+2015-12-18 01:19:01.723 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:01.879 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3 for 127.0.0.1 in (156 ms) Status: [39m200[0m
+2015-12-18 01:19:04.100 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryfCyOfTA8eqasW6Mv", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:04.102 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4
+2015-12-18 01:19:04.108 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/3", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:04.340 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4 for 127.0.0.1 in (232 ms) Status: [39m200[0m
+2015-12-18 01:19:04.982 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryrkEySSvq3UnZDvM7", "content-length" "460", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:04.984 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/5
+2015-12-18 01:19:04.988 | INFO  | onelog.core | [36mStarting [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/4", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:05.171 | INFO  | onelog.core | [36mFinished [0m:get /account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/5 for 127.0.0.1 in (183 ms) Status: [39m200[0m
+2015-12-18 01:19:06.709 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5/5", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:06.814 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (105 ms) Status: [39m200[0m
+2015-12-18 01:19:10.622 | INFO  | onelog.core | [36mStarting [0m:get /account/0x608f4b86321a68453f9adf6f06f7fc3e621739ad for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:10.770 | INFO  | onelog.core | [36mFinished [0m:get /account/0x608f4b86321a68453f9adf6f06f7fc3e621739ad for 127.0.0.1 in (149 ms) Status: [39m200[0m
+2015-12-18 01:19:15.701 | INFO  | onelog.core | [36mStarting [0m:get /account/0xd0ee3f53ee0fcf3f9fbccdd17bd1b6441ddc2074 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:15.778 | INFO  | onelog.core | [36mFinished [0m:get /account/0xd0ee3f53ee0fcf3f9fbccdd17bd1b6441ddc2074 for 127.0.0.1 in (78 ms) Status: [39m200[0m
+2015-12-18 01:19:18.744 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xd0ee3f53ee0fcf3f9fbccdd17bd1b6441ddc2074", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:18.810 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (66 ms) Status: [39m200[0m
+2015-12-18 01:19:22.928 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarybMjBTdyhsxhgEyao", "content-length" "243", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:22.954 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (26 ms) Status: [33m302[0m redirect to /index/116867
+2015-12-18 01:19:22.959 | INFO  | onelog.core | [36mStarting [0m:get /index/116867 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:23.021 | INFO  | onelog.core | [36mFinished [0m:get /index/116867 for 127.0.0.1 in (62 ms) Status: [39m200[0m
+2015-12-18 01:19:28.522 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/116867", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:28.696 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88 for 127.0.0.1 in (175 ms) Status: [39m200[0m
+2015-12-18 01:19:31.413 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarynLdsycckAmdfkhuU", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:31.414 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/2
+2015-12-18 01:19:31.419 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/2 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:31.487 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/2 for 127.0.0.1 in (69 ms) Status: [39m200[0m
+2015-12-18 01:19:32.070 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryoTtbDl2hfy8CHBkU", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/2", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:32.073 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (5 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/3
+2015-12-18 01:19:32.079 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/3 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/2", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:32.149 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/3 for 127.0.0.1 in (70 ms) Status: [39m200[0m
+2015-12-18 01:19:32.668 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryVz7XXvKWL8nBwApP", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/3", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:32.670 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/4
+2015-12-18 01:19:32.677 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/4 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/3", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:32.743 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/4 for 127.0.0.1 in (67 ms) Status: [39m200[0m
+2015-12-18 01:19:33.355 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryjBSVm5KqvLIYTyrC", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/4", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:33.357 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/5
+2015-12-18 01:19:33.364 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/4", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:33.431 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/5 for 127.0.0.1 in (67 ms) Status: [39m200[0m
+2015-12-18 01:19:33.961 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundary9A0mQ5rWJ6oFzbmo", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/5", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:33.963 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/6
+2015-12-18 01:19:33.972 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/6 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/5", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:34.047 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/6 for 127.0.0.1 in (76 ms) Status: [39m200[0m
+2015-12-18 01:19:34.852 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundary1nrf6FVMlC2LVYD7", "content-length" "461", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/6", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 01:19:34.854 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7
+2015-12-18 01:19:34.861 | INFO  | onelog.core | [36mStarting [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/6", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 01:19:34.931 | INFO  | onelog.core | [36mFinished [0m:get /account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7 for 127.0.0.1 in (70 ms) Status: [39m200[0m
+2015-12-18 10:01:52.077 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:01:52.084 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (6 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@324505b1>, :scheme :http, :request-method :get}[0m
+2015-12-18 10:01:52.086 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 10:38:36.619 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0x88d74a59454f6cf3b51ef6b9136afb6b9d405a88/7", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:36.651 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (32 ms) Status: [39m200[0m
+2015-12-18 10:38:36.759 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-18 10:38:36.761 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (2 ms) Status: [33m304[0m
+2015-12-18 10:38:38.434 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:38.456 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (22 ms) Status: [39m200[0m
+2015-12-18 10:38:47.790 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryzSgippbMCsszgCQO", "content-length" "243", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:38:47.807 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (17 ms) Status: [33m302[0m redirect to /index/134665
+2015-12-18 10:38:47.811 | INFO  | onelog.core | [36mStarting [0m:get /index/134665 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:47.839 | INFO  | onelog.core | [36mFinished [0m:get /index/134665 for 127.0.0.1 in (28 ms) Status: [39m200[0m
+2015-12-18 10:38:49.292 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryyRVWShDz0b33T3cS", "content-length" "246", "referer" "http://localhost:3000/index/134665", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:38:49.294 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (3 ms) Status: [33m302[0m redirect to /index/134625
+2015-12-18 10:38:49.299 | INFO  | onelog.core | [36mStarting [0m:get /index/134625 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/134665", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:49.326 | INFO  | onelog.core | [36mFinished [0m:get /index/134625 for 127.0.0.1 in (27 ms) Status: [39m200[0m
+2015-12-18 10:38:50.427 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarywMw9W1tsE3KAjkXo", "content-length" "246", "referer" "http://localhost:3000/index/134625", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:38:50.430 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (4 ms) Status: [33m302[0m redirect to /index/134585
+2015-12-18 10:38:50.436 | INFO  | onelog.core | [36mStarting [0m:get /index/134585 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/134625", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:50.461 | INFO  | onelog.core | [36mFinished [0m:get /index/134585 for 127.0.0.1 in (26 ms) Status: [39m200[0m
+2015-12-18 10:38:58.139 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/134585", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:38:58.254 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 in (115 ms) Status: [39m200[0m
+2015-12-18 10:39:02.883 | INFO  | onelog.core | [36mStarting [0m:get /account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/134585", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:39:02.925 | INFO  | onelog.core | [36mFinished [0m:get /account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096 for 127.0.0.1 in (43 ms) Status: [39m200[0m
+2015-12-18 10:39:15.436 | INFO  | onelog.core | [36mStarting [0m:get /block/134705 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:39:15.479 | INFO  | onelog.core | [36mFinished [0m:get /block/134705 for 127.0.0.1 in (43 ms) Status: [39m200[0m
+2015-12-18 10:41:12.494 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/134705", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:41:12.515 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (21 ms) Status: [39m200[0m
+2015-12-18 10:41:15.770 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:41:15.786 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (17 ms) Status: [39m200[0m
+2015-12-18 10:41:24.552 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:41:24.569 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (17 ms) Status: [39m200[0m
+2015-12-18 10:41:51.265 | INFO  | onelog.core | [36mStarting [0m:get /index/10000 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:41:51.413 | INFO  | onelog.core | [36mFinished [0m:get /index/10000 for 127.0.0.1 in (149 ms) Status: [39m200[0m
+2015-12-18 10:41:58.557 | INFO  | onelog.core | [36mStarting [0m:get /index/100000 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:41:58.665 | INFO  | onelog.core | [36mFinished [0m:get /index/100000 for 127.0.0.1 in (109 ms) Status: [39m200[0m
+2015-12-18 10:42:03.005 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarypnG14xEqu8DzCMVf", "content-length" "246", "referer" "http://localhost:3000/index/100000", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:42:03.020 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (16 ms) Status: [33m302[0m redirect to /index/134705
+2015-12-18 10:42:03.024 | INFO  | onelog.core | [36mStarting [0m:get /index/134705 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/100000", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:03.042 | INFO  | onelog.core | [36mFinished [0m:get /index/134705 for 127.0.0.1 in (18 ms) Status: [39m200[0m
+2015-12-18 10:42:12.109 | INFO  | onelog.core | [36mStarting [0m:get /block/0x9382eaa9380092644dce06286da312b6f8a9e63834e9961d0f12c0f0d94ddff0 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/100000", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:12.154 | INFO  | onelog.core | [36mFinished [0m:get /block/0x9382eaa9380092644dce06286da312b6f8a9e63834e9961d0f12c0f0d94ddff0 for 127.0.0.1 in (45 ms) Status: [39m200[0m
+2015-12-18 10:42:13.720 | INFO  | onelog.core | [36mStarting [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0x9382eaa9380092644dce06286da312b6f8a9e63834e9961d0f12c0f0d94ddff0", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:13.856 | INFO  | onelog.core | [36mFinished [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec for 127.0.0.1 in (136 ms) Status: [39m200[0m
+2015-12-18 10:42:18.354 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryCT3pcZdjM12dBTun", "content-length" "458", "referer" "http://localhost:3000/account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:42:18.355 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/5
+2015-12-18 10:42:18.361 | INFO  | onelog.core | [36mStarting [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/5 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:18.429 | INFO  | onelog.core | [36mFinished [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/5 for 127.0.0.1 in (69 ms) Status: [39m200[0m
+2015-12-18 10:42:19.908 | INFO  | onelog.core | [36mStarting [0m:post /accpage for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarybzOVUNVFYSEDAeKr", "content-length" "458", "referer" "http://localhost:3000/account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/5", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:42:19.911 | INFO  | onelog.core | [36mFinished [0m:post /accpage for 127.0.0.1 in (2 ms) Status: [33m302[0m redirect to /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/1
+2015-12-18 10:42:19.916 | INFO  | onelog.core | [36mStarting [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/1 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/5", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:20.015 | INFO  | onelog.core | [36mFinished [0m:get /account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/1 for 127.0.0.1 in (99 ms) Status: [39m200[0m
+2015-12-18 10:42:21.095 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xf11940ea05aa9cc3f13acf5c5ca6edcf312e3aec/1", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:42:21.118 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (23 ms) Status: [39m200[0m
+2015-12-18 10:43:15.615 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:43:15.647 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 in (32 ms) Status: [39m200[0m
+2015-12-18 10:44:23.588 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:23.612 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (25 ms) Status: [39m200[0m
+2015-12-18 10:44:33.472 | INFO  | onelog.core | [36mStarting [0m:get /index/115000 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:33.569 | INFO  | onelog.core | [36mFinished [0m:get /index/115000 for 127.0.0.1 in (98 ms) Status: [39m200[0m
+2015-12-18 10:44:35.625 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundarynTDKxapJ1UHyEXcs", "content-length" "246", "referer" "http://localhost:3000/index/115000", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:44:35.636 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (10 ms) Status: [33m302[0m redirect to /index/115040
+2015-12-18 10:44:35.642 | INFO  | onelog.core | [36mStarting [0m:get /index/115040 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/115000", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:35.737 | INFO  | onelog.core | [36mFinished [0m:get /index/115040 for 127.0.0.1 in (95 ms) Status: [39m200[0m
+2015-12-18 10:44:36.359 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryoMe9C05hNSyNtZiz", "content-length" "246", "referer" "http://localhost:3000/index/115040", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:44:36.370 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (11 ms) Status: [33m302[0m redirect to /index/115080
+2015-12-18 10:44:36.374 | INFO  | onelog.core | [36mStarting [0m:get /index/115080 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/115040", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:36.458 | INFO  | onelog.core | [36mFinished [0m:get /index/115080 for 127.0.0.1 in (83 ms) Status: [39m200[0m
+2015-12-18 10:44:36.942 | INFO  | onelog.core | [36mStarting [0m:post /goto for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryC4WvYoNXRZ01YPUJ", "content-length" "246", "referer" "http://localhost:3000/index/115080", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:44:36.954 | INFO  | onelog.core | [36mFinished [0m:post /goto for 127.0.0.1 in (13 ms) Status: [33m302[0m redirect to /index/115120
+2015-12-18 10:44:36.958 | INFO  | onelog.core | [36mStarting [0m:get /index/115120 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/115080", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:37.049 | INFO  | onelog.core | [36mFinished [0m:get /index/115120 for 127.0.0.1 in (90 ms) Status: [39m200[0m
+2015-12-18 10:44:54.197 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryxWK7NmRBrGNeAcK5", "content-length" "244", "referer" "http://localhost:3000/index/115120", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:44:54.220 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (24 ms) Status: [33m302[0m redirect to /block/134705
+2015-12-18 10:44:54.225 | INFO  | onelog.core | [36mStarting [0m:get /block/134705 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/115120", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:54.252 | INFO  | onelog.core | [36mFinished [0m:get /block/134705 for 127.0.0.1 in (28 ms) Status: [39m200[0m
+2015-12-18 10:44:59.570 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryo3Af4AXq4BUBmHcB", "content-length" "244", "referer" "http://localhost:3000/block/134705", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:44:59.596 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (26 ms) Status: [33m302[0m redirect to /block/110000
+2015-12-18 10:44:59.601 | INFO  | onelog.core | [36mStarting [0m:get /block/110000 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/block/134705", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:44:59.635 | INFO  | onelog.core | [36mFinished [0m:get /block/110000 for 127.0.0.1 in (35 ms) Status: [39m200[0m
+2015-12-18 10:45:05.392 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryWBTSD61fmbkrZV1d", "content-length" "243", "referer" "http://localhost:3000/block/110000", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:45:05.409 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (17 ms) Status: [33m302[0m redirect to /block/46147
+2015-12-18 10:45:05.440 | INFO  | onelog.core | [36mStarting [0m:get /block/46147 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/block/110000", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:05.492 | INFO  | onelog.core | [36mFinished [0m:get /block/46147 for 127.0.0.1 in (52 ms) Status: [39m200[0m
+2015-12-18 10:45:09.607 | INFO  | onelog.core | [36mStarting [0m:get /account/0x5df9b87991262f6ba471f09758cde1c0fc1de734 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/46147", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:09.649 | INFO  | onelog.core | [36mFinished [0m:get /account/0x5df9b87991262f6ba471f09758cde1c0fc1de734 for 127.0.0.1 in (43 ms) Status: [39m200[0m
+2015-12-18 10:45:13.986 | INFO  | onelog.core | [36mStarting [0m:get /account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/46147", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:14.273 | INFO  | onelog.core | [36mFinished [0m:get /account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca for 127.0.0.1 in (287 ms) Status: [39m200[0m
+2015-12-18 10:45:17.734 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:17.750 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (17 ms) Status: [39m200[0m
+2015-12-18 10:45:19.401 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryhXGX0klLLGYt8Jwr", "content-length" "280", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:45:19.411 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (11 ms) Status: [33m302[0m redirect to /account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca
+2015-12-18 10:45:19.415 | INFO  | onelog.core | [36mStarting [0m:get /account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:19.670 | INFO  | onelog.core | [36mFinished [0m:get /account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca for 127.0.0.1 in (255 ms) Status: [39m200[0m
+2015-12-18 10:45:22.010 | INFO  | onelog.core | [36mStarting [0m:get /block/27933 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xe6a7a1d47ff21b6321162aea7c6cb457d5476bca", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:22.044 | INFO  | onelog.core | [36mFinished [0m:get /block/27933 for 127.0.0.1 in (34 ms) Status: [39m200[0m
+2015-12-18 10:45:25.177 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/27933", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:25.197 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (21 ms) Status: [39m200[0m
+2015-12-18 10:45:26.800 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryCNfw1SRvMJnG5FvG", "content-length" "304", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:45:26.815 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (15 ms) Status: [33m302[0m redirect to /block/27933
+2015-12-18 10:45:26.820 | INFO  | onelog.core | [36mStarting [0m:get /block/27933 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:26.849 | INFO  | onelog.core | [36mFinished [0m:get /block/27933 for 127.0.0.1 in (29 ms) Status: [39m200[0m
+2015-12-18 10:45:28.536 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/27933", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:28.557 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (22 ms) Status: [39m200[0m
+2015-12-18 10:45:30.083 | INFO  | onelog.core | [36mStarting [0m:get /account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:30.104 | INFO  | onelog.core | [36mFinished [0m:get /account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096 for 127.0.0.1 in (21 ms) Status: [39m200[0m
+2015-12-18 10:45:33.886 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0x61019148a7746cc2fa9d1e9c8e54b5f99a72a096", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:33.908 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (23 ms) Status: [39m200[0m
+2015-12-18 10:45:35.236 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:35.268 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 in (33 ms) Status: [39m200[0m
+2015-12-18 10:45:37.764 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:37.780 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (16 ms) Status: [39m200[0m
+2015-12-18 10:45:40.080 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:40.106 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 in (27 ms) Status: [39m200[0m
+2015-12-18 10:45:41.670 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:41.687 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (17 ms) Status: [39m200[0m
+2015-12-18 10:45:47.477 | INFO  | onelog.core | [36mStarting [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:47.503 | INFO  | onelog.core | [36mFinished [0m:get /block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071 for 127.0.0.1 in (26 ms) Status: [39m200[0m
+2015-12-18 10:45:57.060 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/0xc2e4a0c77524c39b5f589789af8f910f504f1571cdb132a8a1567f5c28dc3071", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:45:57.080 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (20 ms) Status: [39m200[0m
+2015-12-18 10:46:03.111 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryQWMK24RrQINQWFIp", "content-length" "244", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:46:03.127 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (17 ms) Status: [39m200[0m
+2015-12-18 10:46:08.794 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryvl2gXrAreX8hXNJw", "content-length" "244", "referer" "http://localhost:3000/search", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:46:08.810 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (16 ms) Status: [33m302[0m redirect to /block/115000
+2015-12-18 10:46:08.814 | INFO  | onelog.core | [36mStarting [0m:get /block/115000 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/search", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:08.865 | INFO  | onelog.core | [36mFinished [0m:get /block/115000 for 127.0.0.1 in (51 ms) Status: [39m200[0m
+2015-12-18 10:46:10.764 | INFO  | onelog.core | [36mStarting [0m:get /tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/block/115000", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:10.803 | INFO  | onelog.core | [36mFinished [0m:get /tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283 for 127.0.0.1 in (39 ms) Status: [39m200[0m
+2015-12-18 10:46:14.099 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:14.120 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (21 ms) Status: [39m200[0m
+2015-12-18 10:46:16.054 | INFO  | onelog.core | [36mStarting [0m:post /search for 127.0.0.1 {"origin" "http://localhost:3000", "host" "localhost:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "content-type" "multipart/form-data; boundary=----WebKitFormBoundaryYFyLOeXRfys2wNFP", "content-length" "304", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "accept-encoding" "gzip, deflate", "cache-control" "max-age=0"}
+2015-12-18 10:46:16.076 | INFO  | onelog.core | [36mFinished [0m:post /search for 127.0.0.1 in (22 ms) Status: [33m302[0m redirect to /tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283
+2015-12-18 10:46:16.080 | INFO  | onelog.core | [36mStarting [0m:get /tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:16.107 | INFO  | onelog.core | [36mFinished [0m:get /tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283 for 127.0.0.1 in (28 ms) Status: [39m200[0m
+2015-12-18 10:46:20.044 | INFO  | onelog.core | [36mStarting [0m:get /account/0xf139e449202bd167d3b34a53efe805b9479feadc for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/tx/0x33831141d49b633e7ba84fab20c85730a0b33b83f9876c50ad3b21d5adcbb283", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:20.087 | INFO  | onelog.core | [36mFinished [0m:get /account/0xf139e449202bd167d3b34a53efe805b9479feadc for 127.0.0.1 in (43 ms) Status: [39m200[0m
+2015-12-18 10:46:31.265 | INFO  | onelog.core | [36mStarting [0m:get /tx/0x84a4798a008e8ee9a1377c322addd361553bf353af5d3efef1c5e217c3986828 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xf139e449202bd167d3b34a53efe805b9479feadc", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:31.298 | INFO  | onelog.core | [36mFinished [0m:get /tx/0x84a4798a008e8ee9a1377c322addd361553bf353af5d3efef1c5e217c3986828 for 127.0.0.1 in (34 ms) Status: [39m200[0m
+2015-12-18 10:46:35.190 | INFO  | onelog.core | [36mStarting [0m:get /account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98 for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xf139e449202bd167d3b34a53efe805b9479feadc", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:46:35.353 | INFO  | onelog.core | [36mFinished [0m:get /account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98 for 127.0.0.1 in (163 ms) Status: [39m200[0m
+2015-12-18 10:48:35.734 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:48:35.736 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (2 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@d44d5d0>, :scheme :http, :request-method :get}[0m
+2015-12-18 10:48:35.738 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 10:48:38.047 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:48:38.050 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (2 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@d44d5d0>, :scheme :http, :request-method :get}[0m
+2015-12-18 10:48:38.050 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 10:57:27.535 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:57:27.538 | ERROR | onelog.core | [1m[31m[1m[31mUncaught exception processing request:[0m for 127.0.0.1 in (3 ms) - request was: {:ssl-client-cert nil, :remote-addr "127.0.0.1", :headers {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}, :server-port 3000, :content-length nil, :content-type nil, :character-encoding nil, :uri "/index/top", :server-name "localhost", :query-string nil, :body #<HttpInput org.eclipse.jetty.server.HttpInput@7a8a02c5>, :scheme :http, :request-method :get}[0m
+2015-12-18 10:57:27.539 | ERROR | onelog.core | [1m[31mjava.net.ConnectException: Connection refused
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+java.net.Socket.connect(Socket.java:589)
+org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+clj_http.core$request.invoke(core.clj:298)
+clojure.lang.Var.invoke(Var.java:379)
+clj_http.client$wrap_request_timing$fn__3558.invoke(client.clj:796)
+clj_http.headers$wrap_header_map$fn__2852.invoke(headers.clj:143)
+clj_http.client$wrap_query_params$fn__3461.invoke(client.clj:624)
+clj_http.client$wrap_basic_auth$fn__3468.invoke(client.clj:640)
+clj_http.client$wrap_oauth$fn__3472.invoke(client.clj:650)
+clj_http.client$wrap_user_info$fn__3477.invoke(client.clj:663)
+clj_http.client$wrap_url$fn__3544.invoke(client.clj:762)
+clj_http.client$wrap_redirects$fn__3245.invoke(client.clj:237)
+clj_http.client$wrap_decompression$fn__3270.invoke(client.clj:309)
+clj_http.client$wrap_input_coercion$fn__3400.invoke(client.clj:488)
+clj_http.client$wrap_additional_header_parsing$fn__3421.invoke(client.clj:522)
+clj_http.client$wrap_output_coercion$fn__3391.invoke(client.clj:438)
+clj_http.client$wrap_exceptions$fn__3231.invoke(client.clj:189)
+clj_http.client$wrap_accept$fn__3435.invoke(client.clj:565)
+clj_http.client$wrap_accept_encoding$fn__3441.invoke(client.clj:579)
+clj_http.client$wrap_content_type$fn__3430.invoke(client.clj:555)
+clj_http.client$wrap_form_params$fn__3522.invoke(client.clj:726)
+clj_http.client$wrap_nested_params$fn__3539.invoke(client.clj:751)
+clj_http.client$wrap_method$fn__3482.invoke(client.clj:670)
+clj_http.cookies$wrap_cookies$fn__1805.invoke(cookies.clj:124)
+clj_http.links$wrap_links$fn__3050.invoke(links.clj:51)
+clj_http.client$wrap_unknown_host$fn__3548.invoke(client.clj:771)
+clj_http.client$get.doInvoke(client.clj:874)
+clojure.lang.RestFn.invoke(RestFn.java:410)
+bitexplorer.model$get_blocklist_data.invoke(model.clj:28)
+bitexplorer.index$create_block_table.invoke(index.clj:81)
+bitexplorer.index$blocklist.invoke(index.clj:103)
+bitexplorer.routes$fn__5477.invoke(routes.clj:89)
+compojure.core$make_route$fn__1295.invoke(core.clj:93)
+compojure.core$if_route$fn__1279.invoke(core.clj:39)
+compojure.core$if_method$fn__1272.invoke(core.clj:24)
+compojure.core$routing$fn__1301.invoke(core.clj:106)
+clojure.core$some.invoke(core.clj:2515)
+compojure.core$routing.doInvoke(core.clj:106)
+clojure.lang.RestFn.applyTo(RestFn.java:139)
+clojure.core$apply.invoke(core.clj:626)
+compojure.core$routes$fn__1305.invoke(core.clj:111)
+ring.middleware.keyword_params$wrap_keyword_params$fn__5001.invoke(keyword_params.clj:27)
+ring.middleware.nested_params$wrap_nested_params$fn__5047.invoke(nested_params.clj:65)
+ring.middleware.params$wrap_params$fn__1565.invoke(params.clj:55)
+ring.middleware.multipart_params$wrap_multipart_params$fn__5082.invoke(multipart_params.clj:103)
+ring.middleware.flash$wrap_flash$fn__5428.invoke(flash.clj:14)
+ring.middleware.session$wrap_session$fn__5412.invoke(session.clj:40)
+ring.middleware.cookies$wrap_cookies$fn__5312.invoke(cookies.clj:160)
+ring.middleware.logger$make_logger_middleware$fn__4820.invoke(logger.clj:148)
+clojure.lang.Var.invoke(Var.java:379)
+ring.middleware.stacktrace$wrap_stacktrace_log$fn__766.invoke(stacktrace.clj:15)
+ring.middleware.stacktrace$wrap_stacktrace_web$fn__797.invoke(stacktrace.clj:79)
+ring.middleware.reload$wrap_reload$fn__962.invoke(reload.clj:18)
+ring.adapter.jetty$proxy_handler$fn__100.invoke(jetty.clj:18)
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+org.eclipse.jetty.server.Server.handle(Server.java:349)
+org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:452)
+org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:884)
+org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:938)
+org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:76)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+java.lang.Thread.run(Thread.java:745)[0m
+2015-12-18 10:59:25.651 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/account/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:59:26.058 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (408 ms) Status: [39m200[0m
+2015-12-18 10:59:26.206 | INFO  | onelog.core | [36mStarting [0m:get /css/style.css for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "if-modified-since" "Wed, 28 Oct 2015 03:08:29 +0000", "accept-encoding" "gzip, deflate, sdch", "cache-control" "max-age=0", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/css,*/*;q=0.1"}
+2015-12-18 10:59:26.208 | INFO  | onelog.core | [36mFinished [0m:get /css/style.css for 127.0.0.1 in (3 ms) Status: [33m304[0m
+2015-12-18 10:59:27.709 | INFO  | onelog.core | [36mStarting [0m:get /index/top for 127.0.0.1 {"host" "localhost:3000", "accept-language" "en-US,en;q=0.8,ru;q=0.6,lv;q=0.4", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36", "accept-encoding" "gzip, deflate, sdch", "referer" "http://localhost:3000/index/top", "connection" "keep-alive", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "upgrade-insecure-requests" "1"}
+2015-12-18 10:59:27.737 | INFO  | onelog.core | [36mFinished [0m:get /index/top for 127.0.0.1 in (28 ms) Status: [39m200[0m

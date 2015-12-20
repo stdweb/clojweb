@@ -14,5 +14,5 @@
 ;                                                 com.sun.jmx/jmxri]]
                  ]
   :plugins [[lein-ring "0.7.1"] [lein2-eclipse "2.0.0"]]
-  :ring {:handler bitexplorer.routes/app}
+  :ring {:handler bitexplorer.routes/app :port 3000}
 )
