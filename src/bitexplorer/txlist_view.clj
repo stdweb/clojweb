@@ -57,8 +57,8 @@
    [:table attribs
     ;[:tr  (map-tag :th [ "Hash" "Tx type" "Sender" "Receiver" "Value" "" "Fee" "GasUsed"  ])]
     [:tr
-     [:th "Hash"] [:th {:class "txtype"} "Tx type"] [:th "Sender"] [:th "Receiver"] [:th {:class "th-colspan" :colspan "2"} "Amount (Finney)"] 
-     [:th {:class "th-colspan" :colspan "2"} "Fee (Finney)"] [:th "Gas Used"] ;[:th "Gross"]
+     [:th "Hash"] [:th {:class "txtype"} "Tx type"] [:th "Sender"] [:th "Receiver"] [:th {:class "th-colspan" :colspan "2"} "Amount"] 
+     [:th {:class "th-colspan" :colspan "2"} "Fee"] [:th "Gas Used"] ;[:th "Gross"]
      ]
     
     ;[:tr [:th "Hash"] [:th "Tx#"]  [:th "Address"] [:th "Received"] [:th "Sent"] [:th "GasUsed"] [:th "Fee"]]
@@ -81,8 +81,8 @@
     [:table attribs
      ;[:tr  (map-tag :th [ "Hash" "Tx type" "Sender" "Receiver" "Value" "" "Fee" "GasUsed"  ])]
      [:tr
-      [:th "Hash"] [:th {:class "txtype"} "Tx type"] [:th "Sender"] [:th "Receiver"] [:th {:class "th-colspan" :colspan "2"} "Amount (Finney)"] 
-      [:th {:class "th-colspan" :colspan "2"} "Fee (Finney)"] [:th "Gas Used"] ;[:th "Gross"]
+      [:th "Hash"] [:th {:class "txtype"} "Tx type"] [:th "Sender"] [:th "Receiver"] [:th {:class "th-colspan" :colspan "2"} "Amount"] 
+      [:th {:class "th-colspan" :colspan "2"} "Fee"] [:th "Gas Used"] ;[:th "Gross"]
       ]
     
      ;[:tr [:th "Hash"] [:th "Tx#"]  [:th "Address"] [:th "Received"] [:th "Sent"] [:th "GasUsed"] [:th "Fee"]]
