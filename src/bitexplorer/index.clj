@@ -77,7 +77,7 @@
                                            [:th "Miner"]  [:th {:class "time"}  "Time"] [:th "# Tx"]
                                            [:th "GasUsed"]
                                            [:th "Size"]
-                                           [:th {:class "th-colspan" :colspan "2"} "Reward"] [:th {:class "th-colspan" :colspan "2"} "TxFee"]]
+                                           [:th {:class "th-colspan" :colspan "2"} "Reward"] [:th {:class "th-colspan" :colspan "2"} "Fee reward"]]
                                           (map #(get-blocklist-item-html %) (get-blocklist-data topblockid))    
                                           ]]))
 

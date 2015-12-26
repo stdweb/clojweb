@@ -68,7 +68,7 @@ td.fract-part {
 	vertical-align: bottom;
 	border-left: 1px dotted gray;
 	padding-left: 0px;
-	font-size:smaller;
+	font-size:smallest;
 	width:90px;
 }
 
@@ -127,7 +127,7 @@ padding: 5px 10px 0 10px;
 
 //color: #fefefe;
 color: blue;
-width: 450px;
+width: 400px;
 //border-right: 1px solid #797979;
 //border-left: 1px solid #191919
 }

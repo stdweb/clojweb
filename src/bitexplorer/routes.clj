@@ -66,7 +66,7 @@
       "block" (resp/redirect (str "/block/" (search-result "blocknumber")))
       "tx" (resp/redirect (str "/tx/" (search-result "tx")))
       
-      (htmlpage [:body [:p (str "Value" search-string " not found") ]])
+      (htmlpage [:body [:p (str "" search-string  " not found") ]])
       )
     
     ))
