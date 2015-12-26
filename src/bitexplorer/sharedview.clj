@@ -29,11 +29,11 @@
 
 (def sharedview 
   (list 
-    [:title "λΞ - Beta version "]
+    [:title "λΞ - The Ethereum Block explorer - Beta version "]
     [:div.menu 
      
      [:div#css-menu [:ul   
-        [:li [:a {:href "/index/top"} [:span.text-top "BitλΞedger " ] [:span.text-bottom "Ethereum Block explorer - Beta version"]]]   
+        [:li [:a {:href "/index/top"} [:span.text-top "BitλΞedger " ] [:span.text-bottom "The Ethereum Block explorer - Beta version"]]]   
         
         [:li (search-form)]
         ;[:li [:a  {:href "mailto://bitledger@bitledger.com"} [:span.text-top "Feedback"] [:span.text-bottom "bitledger@bitledger.com"]]]

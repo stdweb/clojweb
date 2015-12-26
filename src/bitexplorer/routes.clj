@@ -66,15 +66,15 @@
       "block" (resp/redirect (str "/block/" (search-result "blocknumber")))
       "tx" (resp/redirect (str "/tx/" (search-result "tx")))
       
-      (htmlpage [:body [:p (str "Search string " search-string " not found") ]])
+      (htmlpage [:body [:p (str "Value" search-string " not found") ]])
       )
     
     ))
 
 (defroutes main-routes
   (GET "/" [] (resp/redirect (str "/index/top"  )))
-  (GET "/block/:blockid" [blockid] (block-html blockid))
-  (GET "/tx/:txid" [txid] (tx-html txid))
+  (GET "/block/:blockid" [blockid] (try (block-html blockid) (catch Exception e (htmlpage [:body [:p (str "Block " blockid " not found") ]]))) )
+  (GET "/tx/:txid" [txid] (try (tx-html txid) (catch Exception e (htmlpage [:body [:p (str "Transaction " txid " not found") ]]))))
   (GET "/account/Genesis" [] (genesis/view) )
   (GET "/account/genesis" [] (genesis/view) )
   
