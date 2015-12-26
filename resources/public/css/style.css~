@@ -60,7 +60,7 @@ td.floor-part {
 	text-align: right;
 	border-right: 1px dotted gray;
 	padding-right: 0px;
-	width:90px;
+	width:80px;
 }
 
 td.fract-part {
@@ -69,7 +69,7 @@ td.fract-part {
 	border-left: 1px dotted gray;
 	padding-left: 0px;
 	font-size:smaller;
-	width:90px;
+	width:80px;
 }
 
 
@@ -83,6 +83,11 @@ td.blockheader-key {
 	width:100px;
 font-size:smaller;
 }
+tr:hover {
+          //background-color: #ffff99;
+	background-color:cornsilk ;
+        }
+
 .blockheader-val {
 	border-style: dotted;
 	width:600px;

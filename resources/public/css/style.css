@@ -83,6 +83,11 @@ td.blockheader-key {
 	width:100px;
 font-size:smaller;
 }
+tr:hover {
+          //background-color: #ffff99;
+	background-color:ghostwhite ;
+        }
+
 .blockheader-val {
 	border-style: dotted;
 	width:600px;
