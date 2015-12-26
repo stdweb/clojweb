@@ -57,7 +57,9 @@
     "receiver" (internalCall-style data )
     "offset" (internalCall-style data )
     "floor" {:class "floor-part" }
+    "floor-no-red" {:class "floor-part" }
     "fract" {:class "fract-part"}
+    "fract-no-red" {:class "fract-part"}
     ;"entryType" {:class  "txtype" }
     "entryType" (internalCall-style data )
     
@@ -72,15 +74,18 @@
           "Ok" {}
           "Total" {:style "font-weight:bold"}
           {}
-          
-          )]
+          )
+        ]
     style
     ;(merge-style (td-style2 data n) style)
     )
   )
 (defn td-style [data n]
-  (merge-style (td-style2 data n ) (entryresult-style data n))
-  )
+  ( case n
+    "floor-no-red" (td-style2 data n )
+    "fract-no-red" (td-style2 data n )
+    (merge-style (td-style2 data n ) (entryresult-style data n))
+    ))
   
   
  

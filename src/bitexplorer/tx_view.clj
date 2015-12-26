@@ -18,7 +18,7 @@
         account ( item-data "ADDRESS")
         offset ( item-data "OFFSETACCOUNT")
         tx ( item-data "TX")
-        block (item-data "BLOCK")
+        block (item-data "blockId")
        
         
         account-href (hash2href "account" account  )

@@ -28,13 +28,13 @@
 (defn navig-acc-form [acc-hash offset page-count]
 [:div {:id "navigate-block"  :style "float:left"}
  (form-to  {:enctype "multipart/form-data"} [:post "/accpage"]
-        (label "Account" "Search Account")
+        (label {:style "font-weight: bold;"} "Account" "Account Ledger  ")
         (text-field {:style "width:400px"} :acc acc-hash)
         (submit-button {:name "btngoto" :value "Go to" :class "btn"} "Goto")
         (label "page" "   page  ")
-        (text-field {:style "width:30px"} :offset offset)
+        (text-field {:style "width:40px"} :offset offset)
         (label "of" (str "  of  " ))
-        (text-field {:style "width:30px;border-style:none" :readonly "readonly"} :page page-count)
+        (text-field {:style "width:40px;border-style:none" :readonly "readonly"} :page page-count)
         
         
         (submit-button {:name "btngoto" :value "<<" :class "btn" } "Goto")

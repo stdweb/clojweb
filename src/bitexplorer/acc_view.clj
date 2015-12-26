@@ -67,8 +67,8 @@
      ;[:td (data "FEE")]
      ;[:td (data "GROSSAMOUNT")]
      [:td (if (zero? gasUsed) "" gasUsed)]
-     [:td (td-style data "floor") (floor(data "balance_str"))]
-     [:td (td-style data "fract") (fract(data "balance_str"))]
+     [:td (td-style data "floor-no-red") (floor(data "balance_str"))]
+     [:td (td-style data "fract-no-red") (fract(data "balance_str"))]
      ;[:td depth]
      ])
   )

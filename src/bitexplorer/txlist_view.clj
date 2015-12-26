@@ -42,8 +42,8 @@
      [:td (td-style data "receiver")(data "receiver")]
      [:td (td-style data "floor")(floor (data "amount_str"))]
      [:td (td-style data "fract") (fract (data "amount_str"))]
-     [:td (td-style data "floor")(floor (data "fee_str"))]
-     [:td (td-style data "fract")(fract (data "fee_str"))]
+     [:td (td-style data "floor-no-red")(floor (data "fee_str"))]
+     [:td (td-style data "fract-no-red")(fract (data "fee_str"))]
      [:td (if (zero? gasUsed) "" gasUsed)]
      ;[:td (data "GROSSAMOUNT")]
      ]))
@@ -74,8 +74,8 @@
    
     [:table {:class "blockheader"} 
      [ :tr [:td {:class "blockheader-key"} "tx# "] [:td {:class "blockheader-key"} txid]]
-    [ :tr [:td {:class "blockheader-key"} "Block: "] [:td {:class "blockheader-key"} ((first data) "BLOCK")]]
-    [ :tr [:td {:class "blockheader-key"} "Time: "] [:td {:class "blockheader-key"} ((first data) "BLOCKTIMESTAMP")]]]
+    [ :tr [:td {:class "blockheader-key"} "Block: "] [:td {:class "blockheader-key"} ((first data) "blockId")]]
+    [ :tr [:td {:class "blockheader-key"} "Time: "] [:td {:class "blockheader-key"} ((first data) "blockDateTime")]]]
     [:p]
    ; [:h2 (str "Time" (data "BLOCKTIMESTAMP"))]
     [:table attribs
