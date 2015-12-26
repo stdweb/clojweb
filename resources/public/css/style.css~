@@ -68,7 +68,7 @@ td.fract-part {
 	vertical-align: bottom;
 	border-left: 1px dotted gray;
 	padding-left: 0px;
-	font-size:smallest;
+	font-size:smaller;
 	width:90px;
 }
 

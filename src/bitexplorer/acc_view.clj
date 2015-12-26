@@ -84,8 +84,8 @@
       [:th "Tx"] 
       [:th "Entry type"] 
       [:th "Offset Acc"] 
-      [:th {:class "th-colspan" :colspan "2"} "Received (Finney)"] 
-      [:th {:class "th-colspan" :colspan "2"} "Sent (Finney)"]
+      [:th {:class "th-colspan" :colspan "2"} "Received"] 
+      [:th {:class "th-colspan" :colspan "2"} "Sent"]
      
        ;[:th "Fee"] 
       ;[:th "GrossAmount"]
