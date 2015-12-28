@@ -37,7 +37,7 @@
   (let [
         ;depth (parse-int (data "DEPTH"))
         depth (data "depth")
-        style {:style (if (pos? (or depth 0)) (str "text-indent:" depth ".0em") "") }
+        style {:style (if (pos? (or depth 0)) (str "text-indent:" (* 0.5 depth) "em") "") }
         ]
     style
     ;[:td style amount]

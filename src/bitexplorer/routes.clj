@@ -16,7 +16,23 @@
             [compojure.handler :as handler]
             [compojure.response :as response]
             [ring.util.response :as resp]
+            [clj-http.client :as http]
             ))
+
+(defn logentry [handler & [base-url]]
+   ;handler
+   (fn [request]
+     (let [
+           t1  (java.lang.System/currentTimeMillis)
+           resp (handler request)
+           ]
+      
+     ;(http/get (str "http://localhost:8080/log/" (clojure.string/replace (:remote-addr request ) "." "_") ))
+     ;(str(- java.lang.System/currentTimeMillis t1))
+      (http/get (str "http://localhost:8080/log?uri="  ( :uri request) "&ip=" (:remote-addr request ) 
+                     "&duration=" (str (- (java.lang.System/currentTimeMillis) t1))  ))
+      resp
+     )))
 
 (defn blockid-from-request [ req ]
   (let [
@@ -73,6 +89,10 @@
 
 (defroutes main-routes
   (GET "/" [] (resp/redirect (str "/index/top"  )))
+  
+  (GET "/req/:p" request (str request))
+  ;(GET "/req" request (http/get (str "http://localhost:8080/log/" (clojure.string/replace (:params request ) "." "_")  ) ))
+  
   (GET "/block/:blockid" [blockid] (try (block-html blockid) (catch Exception e (htmlpage [:body [:p (str "Block " blockid " not found") ]]))) )
   (GET "/tx/:txid" [txid] (try (tx-html txid) (catch Exception e (htmlpage [:body [:p (str "Transaction " txid " not found") ]]))))
   (GET "/account/Genesis" [] (genesis/view) )
@@ -103,8 +123,9 @@
 
 (def app
   (-> (handler/site main-routes)
-      ;(wrap-base-url)
-      (logger/wrap-with-logger)
+     ;(wrap-base-url)
+      (logentry)
+      ;(logger/wrap-with-logger)
       
       )) 
 
